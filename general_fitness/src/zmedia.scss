@@ -1,0 +1,436 @@
+@import 'mixin.scss';
+@media(max-width: 2000px){
+    .container{
+        max-width: 1436px;
+        position: relative;
+    }
+}
+@media (max-width: 1500px){
+    .footer{
+        background-position: 50% 100%;
+    }
+    .products .gantel{
+        display: none;
+    }
+    .header{
+        background-position: 50% 100%;
+    }
+    .footer .real2{
+        top: 4%;
+    }
+    .ssss{
+        display: none;
+    }
+    .red{
+        display: none;
+    }
+    .shap{
+        display: none;
+    }
+    .sha{
+        display: none;
+    }
+    .lijniy{
+        background-position: 200% -7%;
+    }
+    .stronger{
+        background-position: 125% 0%;
+    }
+    .velo{
+        background-position: 184% -5%;
+    }
+    .goes{
+        background-position: 200% top;
+    }
+}
+
+@media (max-width: 1000px){
+    .menu{
+        flex-direction: row-reverse;
+        padding: 20px 0;
+        align-items: flex-start;
+    }
+    .menu .first-logo{
+        display: none;
+    }
+    .menu .telefon{
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0.493);
+        padding: 19px;
+        padding: 14px;
+        width: 60px;
+    }
+    .vblock{
+        display: flex;
+        flex-direction: column;
+        margin-top: 7px;
+    }
+    .menu-buts{
+        display: none;
+    }
+    .menu .menu-main .nav-buts span{
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: $color-white;
+        margin-bottom: 2px;
+        &:first-child{
+            transform: translate(30deg);
+        }
+    }
+    .menu .menu-main .nav-buts{
+        background: #e62f2e;
+        display: inline-block;
+        padding: 24px 18px;
+    }
+    .menu-main a{
+        margin-left: 0;
+        text-decoration: none;
+        font-weight: 700;
+        color: #2f2e2d;
+        text-transform: uppercase;
+    }
+    .vlogo{
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .social-soc{
+        p{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .menu .menu-numb{
+        display: none;
+    }
+
+    .ssss{
+        display: none;
+    }
+    .red{
+        display: none;
+    }
+    .shap{
+        display: none;
+    }
+    .sha{
+        display: none;
+    }
+    
+    .stronger{
+        background: url('../img/mobilbgstr.png')no-repeat;
+        background-position: right 410px;
+    }
+    .stronger .bycicle-right img{
+        width: 60%;
+    }
+    .mobile-bg{
+        background: #2f2e2d;
+        width: 100%;
+        height: 92px;
+        position: absolute;
+        top: 0;
+    }
+    .bycicle-left h1{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .bycicle-text{
+        font-size: 23px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    .bycicle-numb img{
+        width: 18px;
+    }
+    .bycicle-numb{
+        font-size: 25px;
+    }
+    .goes .bycicle-right img{
+        width: 90%;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .bycicle-product{
+        display: none;
+    }
+    .bycicle-product ul{
+        height: 120px;
+    }
+    .goes{
+        background: url('../img/mobilbgstr.png')no-repeat;
+        background-position: right 385px;
+    }
+    .bycicle-box {
+        padding-top: 345px;
+        position: relative;
+        .pod{
+            display: block;
+            margin: auto;
+            font-size: 17px;
+            font-weight: 700;
+            color: #e62f2e;
+            border: 1px solid #dcdcdc;
+            width: 92%;
+            text-align: center;
+            background: $color-white;
+            padding: 10px 0;
+            cursor: pointer;
+            img{
+                width: 20px;
+            }
+        }
+        .none{
+            display: none;
+        }
+    }
+    .bycicle-box h2 {
+        font-size: 28px;
+    }
+    .bycicle-name{
+        padding: 10px 0;
+        font-size: 17px;
+    }
+    .bycicle-about{
+        padding: 0;
+    }
+    .bycicle-product .buts{
+        padding: 0;
+    }
+    .footer{
+        padding: 170px 0;
+        background-position: 88% 100%;
+    }
+    .footer .real2, .footer .real{
+        display: none;
+    }
+    .footer-box{
+        margin-bottom: 0px;
+        img{
+            display: none;
+        }
+    }
+    .footer h1{
+        margin-bottom: 50px;
+        font-size: 21px;
+    }
+    .footer-box h3{
+        margin-bottom: 30px;
+        font-size: 19px;
+    }
+    .footer-box h3:nth-child(2), .footer-box h3:nth-child(3), .footer-box h3:nth-child(4){
+        align-self: flex-start;
+    }
+    .footer .kachok{
+        width: 100%;
+    }
+    .footer-contact p{
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .footer-contact form::before{
+        content: none;
+    }
+    .footer-contact form{
+        padding: 10px;
+    }
+    .footer-contact form button{
+        bottom: -37px;
+    }
+    .footer-contact form input::placeholder{
+        font-size: 15px;
+    }
+    .footer-contact form input{
+        padding-left: 20px;
+    }
+    .footer-about{
+        display: none;
+    }
+    .footer-numbers{
+        padding: 0;
+        padding-top: 30px;
+    }
+    .footer-not{
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-white;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .footer-numbers p:first-child{
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    .footer-numbers p:nth-child(2){
+        align-self: center;
+    }
+    .footer .down {
+        margin-bottom: 50px;
+    }
+    .footer-client .block h2{
+        font-size: 20px;
+    }
+    .footer-client .block{
+        padding: 28px;
+    }
+    .footer-client .block{
+        margin-bottom: 50px;
+    }
+    .footer .mobile{
+        flex-direction: column-reverse;
+        .kachok{
+            position: relative;
+            width: 100%;
+            right: 0;
+            left: 0;
+            top: 0;
+            display: block;
+            margin: auto;
+        }
+    }
+    .answer h1{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .bg-ans, .bg-que{
+        display: none;
+    }
+    .answer-text .first{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .answer{
+        padding: 0;
+    }
+    .answer h1{
+        margin-bottom: 40px;
+    }
+    .velo{
+        background: url('../img/mobilbgstr.png')no-repeat;
+        background-position: right 410px;
+        .bycicle-right img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+        }
+        .bycicle-box {
+            padding-top: 400px;
+        }
+    }
+    .lijniy{
+        background: url('../img/mobilbgstr.png')no-repeat;
+        background-position: right 420px;
+        .bycicle-right img{
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: block;
+            width: 80%;
+            left: 0;
+            margin: auto;
+        }
+    }
+    .main-block{
+        padding: 0;
+        .logo-block{
+            display: none;
+        }
+        .positive{
+            display: none;
+        }
+    }
+    .header{
+        background: none;
+    }
+    .header-block img{
+        top: 286px;
+        width: 100%;
+    }
+    .header h1{
+        font-size: 36px;
+        margin-top: 50px;
+        span{
+            color: #e62f2e;
+        }
+    }
+    .header .left{
+        display: none;
+    }
+    .all .ups{
+        display: none;
+    }
+    .header-block{
+        display: none;
+    }
+    .products .gantel-left{
+        display: none;
+    }
+    .products .gantel2{
+        display: none;
+    }
+    .products-box img{
+        width: 100%;
+    }
+    .products-box{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .products .mb_down{
+        margin-bottom: 0;
+    }
+    .products .products-child{
+        margin-bottom: 90px;
+    }
+
+    .products-child::before{
+        top: -45px;
+    }
+    .products-child::after{
+        top: -18px;
+    }
+    .products {
+        padding: 65px 0;
+        padding-bottom: 0;
+    }
+    .products-child h3{
+        margin-left: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    .products-child .btns{
+        margin-bottom: 25px;
+    }
+    .products .nsync{
+        margin-bottom: 0;
+    }
+    .popup{
+        padding: 15px;
+        width: 90%;
+        padding-top: 50px;
+        .footer-contact p{
+            color: #2f2e2d;
+        }
+        .footer-contact form button{
+            left: 0;
+            right: 0;
+            display: block;
+            margin: auto;
+        }
+    }
+}
